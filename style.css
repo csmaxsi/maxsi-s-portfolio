@@ -44,6 +44,7 @@ section {
     width: 100%;
     padding: 2rem 9%;
     background: var(--bg-color);
+    background-image: url(images/1.png);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,10 +91,14 @@ section {
     
 }
 
+
+
 .home-img img {
-    width: 135%;
-    height: 135%;
+    width: 40vw;
+    position: relative;
 }
+
+
 
 .home-content h3 {
     font-size: 3.2rem;
@@ -167,7 +172,7 @@ span {
 }
 
 .about-img img {
-    width: 140%;
+    width: 35vw;
     position: relative;
 }
 
